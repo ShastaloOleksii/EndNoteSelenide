@@ -1,0 +1,1824 @@
+<html><head>
+<base href="https://www.myendnoteweb.com:443/EndNoteWeb.html">
+<title>EndNote</title>
+<!-- EndNote 3.24 #MONIKER# -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="apple-itunes-app" content="app-id=593994211">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="/images/en_us/ENWeb_favicon.ico">
+
+
+<link rel="stylesheet" type="text/css" href="/css/001/en_us/int.min.css">
+<link rel="preload" as="style" href="/css/001/en_us/int.min.css">
+<link rel="stylesheet" type="text/css" href="ext.min.css">
+<link rel="preload" as="style" href="ext.min.css">
+<link id="themeStyles" rel="stylesheet" href="/dojo/dijit/themes/tundra/tundra.css">
+<link id="themeStyles" rel="preload" as="style" href="/dojo/dijit/themes/tundra/tundra.css">
+<link rel="stylesheet" href="/dojo/dojox/image/resources/image.css">
+<link rel="preload" as="style" href="/dojo/dojox/image/resources/image.css">
+
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//d3rm6si6l6yzgk.cloudfront.net/1p-frontend/snowplow/sp-2.6.1.js"></script><script src="toolkits/ext.min.js" async=""></script>
+<link rel="preload" as="script" href="dojo/dojo/dojo.js">
+<script type="text/javascript" src="/dojo/dojo/dojo.js"></script>
+<script>(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;n.src=w;g.parentNode.insertBefore(n,g);}}(window,document,'script','//d3rm6si6l6yzgk.cloudfront.net/1p-frontend/snowplow/sp-2.6.1.js','snowplow'));window.snowplow('newTracker','cf','snowplow.apps.clarivate.com',{encodeBase64:false,appId:'endnote',platform:'web',contexts:{gaCookies:true,performanceTiming:true}});window.snowplow('setUserId','13001176');const experimentId=123;function setupExperimentContext() { if (!experimentId) { return []; } return [{"schema":"iglu:ne.clarivate.com/usage/jsonschema/1-0-0","data": {"exp":"", "customerId":"", "appSessionId":""} }]; }</script>
+
+
+<style type="text/css">
+body {
+	font-family:'Source Sans Pro',Calibri,Arial,Helvetica,sans-serif,'Helvetica Neue';
+}
+.contnavtext{
+	border-right : 0px;
+}
+.RichTextEditable {
+	border:1px solid #849CBD;
+}
+.gsrow1 {
+    background-color: #E6E7E9;
+    vertical-align: top;
+}
+/* Editor Border Color -  dojo 1.5 */
+.dijitEditor {
+        border:1px solid #849CBD;
+}
+.dijitInlineEditBoxDisplayModeHover {	
+	background-color: #e2ebf2;
+	border: solid 1px white;
+	width: 726px;
+}
+.dijitInlineEditBoxDisplayMode {
+	width: 727px;
+	word-wrap: break-word;
+/* border: 1px dotted #849CBD; */
+}
+.dijitInlineEditBoxEmptyField {
+    border: 1px dotted #849CBD; 
+    cursor: text;
+	width: 727px;
+}
+.dijitInlineEditBoxDataField {
+    border: 0px;
+    cursor: text;
+	width: 726px;
+}
+.ResearcherID_links{
+	color: #996633;
+	font-weight:normal;
+	font-size:65%;;
+	font-family:'Source Sans Pro',Calibri,Arial,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0 7px 0 15px;
+}
+.GroupSet_links{
+	color:#707070;
+	font-weight:normal;
+	font-size:65%;
+	font-family:'Source Sans Pro',Calibri,Arial,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0 7px 0 15px;
+}
+.GroupSet_groups{
+	font-weight:normal;
+	font-size:65%;
+	font-family:'Source Sans Pro',Calibri,Arial,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0 7px 0 15px;
+}
+.groupshead {
+       color: #996633;
+	 }
+.SharedGroupsLine {
+      color: #990033;	 
+ }
+.SharedGroupsHeading {
+      color: #990033;
+	  font-weight:bold;
+ }
+.sharedHead {
+	font-weight: bold;
+	font-size: 120%;
+	padding-bottom: 2px;
+	/*padding-left: 5px;*/
+	padding-top: 8px;
+	color: #990033; 
+}
+ .dotvert_g { 
+ 	background: url(/images/dots_vert.gif) 50% 100% repeat-y;
+ 	background-color: #E8E8E8;
+ 	width: 15px; 	
+ }
+</style>
+
+
+</head><body><a name=" "></a>
+
+
+
+<script> 
+	var isIE11 = '0';
+	var lang = '';
+	djConfig = { parseWidgets: false, searchIds: [] , parseOnLoad: false, locale: lang }; </script>
+
+<script type="text/JavaScript">
+window.snowplow('trackPageView', null, setupExperimentContext());
+<!--
+function MM_preloadImages() { //v3.0	
+    var d=document; 
+    if(d.images){ 
+        if(!d.MM_p) 
+            d.MM_p=new Array();
+        var i,j=d.MM_p.length,a=MM_preloadImages.arguments; 
+        for(i=0; i<a.length; i++)
+            if (a[i].indexOf("#")!=0){ 
+                d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];
+            }
+    }
+}
+function MM_swapImgRestore() { //v3.0
+    var i,x,a=document.MM_sr; 
+    for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) 
+        x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+    var p,i,x;  
+    if(!d) d=document; 
+    if((p=n.indexOf("?"))>0&&parent.frames.length) {
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);
+    }
+    if(!(x=d[n])&&d.all)
+        x=d.all[n]; 
+    for (i=0;!x&&i<d.forms.length;i++) 
+        x=d.forms[i][n];
+    for(i=0;!x&&d.layers&&i<d.layers.length;i++) 
+        x=MM_findObj(n,d.layers[i].document);
+    if(!x && d.getElementById) 
+        x=d.getElementById(n); 
+    return x;
+}
+function MM_swapImage() { //v3.0
+    var i,j=0,x,a=MM_swapImage.arguments; 
+    document.MM_sr=new Array; 
+    for(i=0;i<(a.length-2);i+=3)
+    if ((x=MM_findObj(a[i]))!=null) {
+        document.MM_sr[j++]=x; 
+        if(!x.oSrc) 
+            x.oSrc=x.src; 
+        x.src=a[i+2];
+    }
+}
+//---------------------------
+menu=["myref", "collect", "organize", "format", "options", "connect","adminTools",];
+function showMenu(menuId) 
+{	
+	noHide();
+	prevMenuId = menuId;
+	hidePrevSubmenu(prevMenuId,menuId);
+	if(menuId != 1 &&  menuId != 5 && menuId != 7) {
+		document.getElementById('enwHeader').style.backgroundColor = "rgb(228, 229, 236)";
+    }
+	else {
+		document.getElementById('enwHeader').style.backgroundColor = "rgb(255, 255, 254)";
+	}
+	if(typeof activeMenuId != "undefined" && menuId == activeMenuId && document.getElementById('submenu_'+activeMenuId) != undefined) {
+		 document.getElementById('submenu_'+activeMenuId).style.visibility="visible";
+	}
+	if(typeof activeMenuId != "undefined") {
+		if(typeof activeMenuId != "undefined" && menuId != activeMenuId && prevMenuId != activeMenuId && document.getElementById('submenu_'+activeMenuId) != undefined) {
+			if(document.getElementById('submenu_'+activeMenuId).style.visibility == "visible") {
+				document.getElementById('submenu_'+activeMenuId).style.visibility="hidden";
+			}
+		}
+	    document.getElementById('lgLink'+activeMenuId).style.borderBottom = '4px solid rgb(94, 51, 191)';
+	}
+	showActiveMenu();
+}
+function hidePrevSubmenu(prevMenuId,menuId) {
+	if(typeof activeMenuId != "undefined") {
+		if(menuId != activeMenuId && prevMenuId != activeMenuId && document.getElementById('submenu_'+activeMenuId) != undefined) {
+			document.getElementById('submenu_'+activeMenuId).style.visibility='hidden';
+		}	     
+		showCurrSubmenu(activeMenuId);
+	}
+}
+function showCurrSubmenu(menuId) {
+	if(typeof activeMenuId != "undefined" && menuId == activeMenuId) {
+		document.getElementById('lgLink'+menuId).style.borderBottom = '4px solid rgb(94, 51, 191)';
+		var tab = document.getElementById('tab'+menuId);
+		showActiveMenu();
+	}
+}
+function noHide() {
+	document.getElementById('enwHeader').style.backgroundColor = "rgb(228, 229, 236)";
+	if (self.tm) clearTimeout(tm);
+}
+function doHide() {	
+	document.getElementById('enwHeader').style.backgroundColor = "rgb(255, 255, 255)";
+	tm=setTimeout("showActiveMenu(activeMenuId)", 1000);	
+}
+function showActiveMenu() {
+	if(document.getElementById('enwHeader').style.backgroundColor != "rgb(228, 229, 236)" && document.getElementById('enwHeader').style.backgroundColor != "rgb(255, 255, 254)") {
+		var tab = document.getElementById('tab'+activeMenuId);
+		if(tab && !tab.className.match('open')) {
+			tab.className=tab.className + " open";
+		}
+		if(typeof activeMenuId != "undefined" && document.getElementById('submenu_'+activeMenuId) != undefined && document.getElementById('submenu_'+activeMenuId).style.visibility == "hidden") {
+			document.getElementById('submenu_'+activeMenuId).style.visibility="visible";
+			document.getElementById('enwHeader').style.backgroundColor = "rgb(255, 255, 255)";
+		}
+	}
+}
+if (document.addEventListener) {
+   document.addEventListener("contextmenu", openLink);
+}
+else if(document.attachEvent) {
+	document.attachEvent('on' + "contextmenu", openLink);
+}
+function openLink(ev) {  
+	if (typeof ev.target != 'undefined') {
+		element = ev.target;
+	}
+	else {
+		element = ev.srcElement;
+	}		
+    if(element.parentNode.href!=undefined&&element.parentNode.href.match(/javascript\s*\:/))
+		element = element.parentNode;
+    if( element.href != undefined && element.href.match(/javascript\s*\:/)) {
+		var urlLink = element.getAttribute("onclick");
+		if(urlLink != undefined && urlLink.match(/openUrl_location\(\'(.*)\'\,/)) {
+			var param = urlLink.match(/openUrl_location\(\'(.*)\'\,/);
+			element.href = param[1];
+			setTimeout(function(){ element.href="javascript:void()"; }, 100);
+		}
+		else {
+			if(urlLink != undefined && urlLink.match(/goToSignUp/)){
+				goToSignUp();	
+			}
+			else if(element.id == "feedbk") {
+				window.open('EndNoteWeb.html?func=feedBack&','','status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=800,height=600');
+			}
+			else if(element.href.match(/javascript\:chgLanguage/)) {
+				var param = element.href.match(/\(\'(.*)\'\)/);				
+				chgLanguage(param[1]);
+			}
+			else if(urlLink != undefined && urlLink.match(/javascript\:setGettingStartedGuide/)) {
+					var param = urlLink.match(/\(\"(.*)\"\)/);	
+					setGettingStartedGuide(param[1]);
+			}
+			if(ev.preventDefault())
+				ev.preventDefault();
+			else if(ev.stopPropagation != undefined)
+				ev.stopPropagation();
+			else
+			    ev.cancelBubble = true;
+			}
+			return false;
+	}
+}
+function openUrlWindow(theURL,winName,features) {
+    if(winName=="window"){
+        newWindow = window.open(theURL,winName,features);		
+		newWindow.focus();
+	}
+	else if(winName=="tab"){
+             newWindow = window.open(theURL,"_target");
+			 newWindow.focus();
+	}
+	else if(winName=="self"){
+	window.location=theURL;
+	}
+        return false;
+}
+function openUrl_location(theURL,winName,features) {
+    if(winName.length){
+        return openUrlWindow(theURL,winName,features);
+    }else{
+        return true;
+    }
+}	
+window.onload = init;
+function init() {
+	var elem = '<span><br><div class="wui-content-title--small">We get it. Research is a process. </div><div class="wui-content-body--small">We are exploring new ways to help you discover, discuss and connect around research. Take a look.</div><button data-dismiss="popover" onclick="setNeonOnboardingMessage()" class="close wui-btn wui-btn--primary pull-right">Got it </button></span>';
+	var toolTip = window.name || "";
+	if(typeof activeMenuId != "undefined" && activeMenuId == 1) {
+		$('[data-toggle="popover"]').popover({animation:true,  content:elem, html:true});
+		$('[data-toggle="popover"]').popover('show');
+	}
+	$(document).on("click", ".popover .close" , function() {
+		$(this).parents(".popover").popover('hide');
+    });
+	$('html').on("click touchstart",function(e) {
+		$('.popover').popover('hide');
+	});
+}
+function setNeonOnboardingMessage() {
+	var flag = "yes";
+	dojo.xhrGet({
+				  url          : "EndNoteWeb.html?func=setNeonOnboardMsg&userGotNeonMsg="+flag,
+				  preventCache : true,
+				  load         : function (data) {
+								 },
+				  error        : function(response, ioArgs) { 
+										console.error(response);
+								}
+			   });
+}
+//-->
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-59903427-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<table width="100%" id="summaryOuterTable" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr><td colspan="3">
+<nav id="enwHeader" class="ne-nav ng-scope">
+    <div class="ne-main-nav-wrapper">
+      <div class="container-fluid">
+	 	<div class="ne-main-nav">
+          <h1 class="ne-nav-logo">
+            <a onclick="ga('send', 'event', 'Clarivate Analytics Logo','Link','Clarivate Logo');return openUrl_location('/','self');" href="javascript:void(0);" alt="Clarivate Analytics" title="Clarivate Analytics" "="">
+              <span class="ne-nav-logo__text ne-nav-logo__text--tr"><img src="/images/en_us/clarivate_analytics_endnote2.png" alt="Clarivate Analytics" title="Clarivate Analytics"></span>
+<!--
+              <span class="ne-nav-logo__text ne-nav-logo__text--tr"><img id="trlogo" class="trlogo" name="Clarivate" src="/images/en_us/clarivate.png" alt="Clarivate Analytics" title="Clarivate Analytics" ></span>
+-->
+
+              <span class="ne-nav-logo__text ne-nav-logo__text--ne invisible">Project Neon </span>
+            </a>
+          </h1>
+         <div class="profile_apps">
+		   <span class="dropdown ng-scope">
+			 <a aria-expanded="true" href="" class="dropdown-toggle" data-toggle="dropdown" alt="Apps " title="Apps ">
+   	 		    <i style="padding-right: 10px;" class="wui-icon wui-icon--app"></i>
+			    <span class="hide">Apps </span>
+			 </a>
+             <ul class="neapps dropdown-menu dropdown-menu--with-caret dropdown-menu-right">
+			   <li class="dropdown-header wui-super-header">MY APPS</li>
+   			   <li class="divider"></li>
+   			   <li id="rid">
+			     <a onclick="ga('send', 'event', 'Apps link - Researcher ID','Link','RID URL');return openUrl_location('http://www.researcherid.com/','tab');" href="javascript:void(0);" alt="ResearcherID" title="ResearcherID" rel="noopener">ResearcherID</a></li>
+			   <li class="divider"></li>
+   			   <li id="pr">
+			     <a onclick="ga('send', 'event', 'Apps link - Publon','Link','Publon URL');return openUrl_location('https://publons.com/clarivate/?utm_source=clarivate&amp;utm_medium=endnoteweb_header','tab');" href="javascript:void(0);" alt="Publons: The home of peer review" title="Publons: The home of peer review">Publons</a></li>
+<!--		   <li class="divider"></li>
+   			   <li><a onclick="return openUrl_location('' ,'tab');" href="javascript:void(0);">InCites</a></li>
+			   <li class="divider"></li>
+   			   <li><a onclick="return openUrl_location('','tab');" href="javascript:void(0);">ScholarOne Abstracts</a></li>
+			   <li class="divider"></li>
+   			   <li><a onclick="return openUrl_location('','tab');" href="javascript:void(0);">ScholarOne Manuscripts</a></li>
+			   <li class="divider"></li>
+   			   <li><a class="brand" onclick="return openUrl_location('https://access.clarivate.com/#/home?app=endnote','tab');" href="javascript:void(0);">Project Neon</a></li> -->
+   			   <li class="divider"></li>
+            </ul>
+          </span>
+
+	 	  <span class="dropdown">
+			 <a href="" class="dropdown-toggle" data-toggle="dropdown" alt="AAA AAA" title="AAA AAA">
+   	 	      <img class="img-circle" id="proSmallImg" src="images/profile2.jpg" alt="">
+			 </a>
+             <ul id="profile" class="dropdown-menu dropdown-menu--with-caret dropdown-menu-right">
+	 		   <li class="dropdown-header">
+		<!--		<a onclick="ga('send', 'event', 'Profile link - User Info','Link','Profile'); return openUrl_location('https://access.clarivate.com/#/profile?app=endnote','self');" href="javascript:void(0);" alt="AAA AAA" title="AAA AAA" class="inactiveLink"> -->
+			<a onclick="ga('send', 'event', 'Profile link - User Info','Link','Profile'); return openUrl_location('https://access.clarivate.com/#/profile?app=endnote','self');" href="javascript:void(0);" class="inactiveLink">
+			   <img alt="AAA AAA" title="AAA AAA" class="img-circle" id="proImg" src="images/profile2.jpg">			   
+			      <p>
+				   <span class="profile_title">AAA AAA</span><br>
+				    <span class="profile_description_empty"></span><br>
+<!--					   <span style="color:#288cb6;font-size:13px;text-decoration:none" class="invisible" alt="" title=""></span> -->
+				  </p>
+               </a>
+              </li>			
+			  <li class="profilelinks">
+				  <ul class="row1 list-inline ">
+				      <li class="pull-left">
+				<a onclick="ga('send', 'event', 'Profile link - User Account','Link','Account'); return openUrl_location('./EndNoteWeb.html?func=chgpasswd&amp;', 'self');" href="javascript:void(0);">
+					      <span class="fa fa-cog profile_account_link"></span>Account
+					    </a>
+				      </li>
+					  <li class="pull-right" style="padding-right:3px">
+
+					    <a target="_self" onclick="ga('send', 'event', 'Profile link - Sign out','Link','Sign out ');" href="./EndNoteWeb.html?func=logout&amp;locale=en_us&amp;">Sign out 
+						    <span class="fa fa-sign-out profile_signout_link"></span>
+					    </a>
+	
+					  </li>
+                  </ul><br>
+				  <div class="seperator"></div>
+				  <ul class="row2 list-inline" style="text-align: center;">
+					<li><a onclick="ga('send', 'event', 'Profile link - Privacy','Link','Privacy'); return openUrl_location('https://access.clarivate.com/#/privacy-statement-app?app=endnote', 'tab');" href="javascript:void(0);" rel="noopener">Privacy</a></li><li class="divider-vertical"></li>
+					<li><a onclick="ga('send', 'event', 'Profile link - Neon AcceptableUse','Link','AcceptableUse'); return openUrl_location('https://access.clarivate.com/#/terms-of-use-app?app=endnote', 'tab');" href="javascript:void(0);">Terms of use</a></li><li class="divider-vertical"></li>
+					<li><a onclick="ga('send', 'event', 'Profile link - EN Help','Link','Help');return openUrl_location('/help/en_us/ENW/help.htm','tab');" href="javascript:void(0);" rel="noopener">Help</a></li>
+					<li class="divider-vertical"></li>
+					<li><a onclick="ga('send', 'event', 'Profile link - Neon Feedback','Link','Feedback'); return openUrl_location('EndNoteWeb.html?func=feedBack&amp;','window','status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=800,height=600');" href="javascript:void(0);">Feedback</a></li>
+					
+					
+				  </ul>
+			</li>
+		</ul>
+	  <span>
+   </span></span></div>
+  </div>
+ </div>
+</div>
+  
+<!-- end: MasterBegin -->
+
+<!-- begin: Tab -->
+<!--[if (IE 9)|(IE 8)]>
+<style type="text/css" >
+.nav > li > a {
+	padding:10px 0px;
+	line-height: 42px;
+}
+</style>	
+<![endif]-->
+	<div class="navbar navbar-default">
+<!--
+	 <div class="navbar-header">
+       <a class="navbar-brand h3" onclick="ga('send','event', 'EndNote Logo','Click','EN Logo'); return openUrl_location('/','self');" alt="EndNote logo" title="EndNote logo">EndNote<sup>TM</sup><span>basic</span></a>
+	 </div>
+-->
+     <div class="navbar-collapse collapse" style="height:auto">
+	   <ul class="nav navbar-nav navbar-middle">
+
+		 <li class="ne-subnav-link-wrapper" id="tab1">
+			<a id="lgLink1" href="./EndNoteWeb.html?cat=myrefs&amp;" border="0" onmouseover="this.style.color='#000000';showMenu(1); return true" onmouseout="this.style.color='#000000';doHide(); return true" alt="View your references" title="View your references">My&nbsp;References</a>
+		 
+		 </li><li class="dropdown ne-subnav-link-wrapper" id="tab2">
+			<a id="lgLink2" href="./EndNoteWeb.html?func=remoteSearchConnections&amp;cat=collect&amp;" border="0" onmouseover="this.style.color='#000000';showMenu(2); return true" onmouseout="this.style.color='#000000';doHide();return true" alt="Collect references" title="Collect references">Collect</a>
+		
+			 <ul class="dropdown-menu submenus" id="submenu_2">
+				 <li class="contnavtext"><a href="EndNoteWeb.html?func=remoteSearchConnections&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Online Search</a></li>
+                 <li class="contnavtext"><a href="EndNoteWeb.html?func=new&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">New Reference</a></li>
+                 <li class="contnavtext"><a href="./EndNoteWeb.html?func=import%20citations&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Import References</a></li>
+             </ul>
+		 
+		 </li><li class="dropdown ne-subnav-link-wrapper" id="tab3">
+            <a id="lgLink3" href="./EndNoteWeb.html?func=folderOptions&amp;cat=organize&amp;" alt="Organize references" title="Organize references" border="0" onmouseover="this.style.color='#000000';showMenu(3); return true" onmouseout="this.style.color='#000000';doHide(); return true">Organize</a> 
+		
+			<ul class="dropdown-menu submenus" id="submenu_3">
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=folderOptions&amp;page=manageFolders&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Manage My Groups</a></li>
+				<li class="contnavtext "><a href="./EndNoteWeb.html?func=othersList&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Others' Groups</a></li>
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=findDuplicates&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Find Duplicates</a></li>
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=manageAttachments&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Manage Attachments</a></li>
+			</ul>
+          
+		  </li><li class="dropdown ne-subnav-link-wrapper open" id="tab4">
+            <a id="lgLink4" href="./EndNoteWeb.html?func=bibliography&amp;cat=format&amp;" border="0" alt="Format references" title="Format references" onmouseover="this.style.color='#000000';showMenu(4); return true" onmouseout="this.style.color='#000000';doHide(); return true" style="border-bottom: 4px solid rgb(94, 51, 191);">Format</a>
+     
+			 <ul class="dropdown-menu submenus" id="submenu_4">
+				<li class="contnavtext">Bibliography</li>
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=showcwyw&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Cite While You Write™ Plug-In</a></li>
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=scan%20paper&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Format Paper</a></li>
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=export%20citations&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Export References</a></li>
+			</ul>              
+
+		 </li><li class="ne-subnav-link-wrapper" id="tab5">
+  			 <a id="lgLink5" href="./EndNoteWeb.html?func=journalDetails&amp;cat=details&amp;" border="0" alt="Match" title="Match" onmouseover="this.style.color='#000000';showMenu(5); return true" onmouseout="this.style.color='#000000';doHide(); return true">Match</a>
+
+		 </li><li class="dropdown ne-subnav-link-wrapper" id="tab6">
+             <a id="lgLink6" href="./EndNoteWeb.html?func=chgpasswd&amp;cat=options&amp;" border="0" alt="Options" title="Options" onmouseover="this.style.color='#000000';showMenu(6); return true" onmouseout="this.style.color='#000000';doHide(); return true">Options</a>
+
+			<ul class="dropdown-menu submenus" id="submenu_6">
+            <li class="contnavtext"><a href="./EndNoteWeb.html?func=chgpasswd&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Password</a></li>
+            <li class="contnavtext"><a href="./EndNoteWeb.html?func=chgusername&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">E-mail Address</a></li>
+            <li class="contnavtext"><a href="./EndNoteWeb.html?func=chgprofile&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Profile Information</a></li>
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=chglanguage&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Language</a></li>
+				<li class="contnavtext"><a href="./EndNoteWeb.html?func=accountInformation&amp;" onmouseover="noHide();  return true;" onmouseout="doHide(); return true">Subscription </a></li>
+			</ul>
+         
+		 </li><li class="ne-subnav-link-wrapper" id="tab7">
+        	 <a id="lgLink7" href="./EndNoteWeb.html?func=downloadInstallers&amp;cat=download&amp;" border="0" alt="Downloads" title="Downloads" onmouseover="this.style.color='#000000';showMenu(7); return true" onmouseout="this.style.color='#000000';doHide(); return true">Downloads</a>
+
+	     </li>
+      </ul>
+
+	</div>
+  </div>
+</nav>
+
+</td></tr>
+
+<tr><td colspan="3">
+
+<!-- begin: SubMenu -->
+</td></tr><tr>
+    <td colspan="3" class="contnav" style="padding-top:0px" valign="top">
+        <table border="0" width="100%" cellspacing="0" cellpadding="0">
+            <tbody><tr></tr>
+            <tr>
+                <td valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody><tr>
+                            <td colspan="3">
+							</td>
+                        </tr>
+
+                        <tr>
+                            <td></td><td colspan="3" class="dothorz"></td>
+                        </tr>
+                        <tr>
+
+						<td id="onlineSideBar" width="29px">
+                           </td><td width="1" class="dotvert"><img src="/images/en_us/spacer.gif" alt=""></td>
+                           <td class="summary_TopBox"></td>
+                           <td width="1" class="dotvert"><img src="/images/en_us/spacer.gif" alt=""></td><td width="5">&nbsp;</td>
+                        </tr>
+                    </tbody></table>
+               </td>
+            </tr>
+         </tbody></table></td>
+    </tr>
+<tr>
+<!-- end: SubMenu -->
+
+
+<script>
+activeMenuId = 4;
+prevMenuId = activeMenuId;
+showCurrSubmenu(activeMenuId);
+</script>
+<!-- end: Tab -->
+
+<!-- begin: LeftNav -->
+    <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td valign="top"><table border="0" width="100%" cellspacing="0" cellpadding="0" class="contnav_lower" style="padding-left:19px">
+          <tbody><tr>
+
+            <td valign="top"><table width="100%" height="450" border="0" cellpadding="0" cellspacing="0" id="summaryDisplayTable">
+              <tbody><tr>
+                <td class="sideBarCol" valign="top">
+                <table id="SubjectAreas" width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                          <td width="17" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        </tr>
+                      </tbody></table>
+             </td>
+<!-- end: LeftNav -->
+ 
+
+ 
+<script language="JavaScript">
+var valid=false;
+
+window.onload = new function(){trackEvents();};	
+
+function trackEvents() {	
+
+	if (document.addEventListener ) {
+		document.addEventListener("keydown", checkKeycode);
+		document.addEventListener("click", formAction);
+	}
+	else if(document.attachEvent) {
+		document.attachEvent("onkeydown", checkKeycode);
+		document.attachEvent("onclick", formAction);
+	}	
+	
+	function checkKeycode(e) {
+		 var keycode;
+		
+	  	 if (window.event) 
+			 keycode = window.event.keyCode;	
+		 else if (e) 
+			 keycode = e.which;	
+	  	  if (keycode == 116 ||( (keycode == 82) && (e.ctrlKey || window.event.ctrlKey))) {
+			  if (e.preventDefault) {
+				 e.preventDefault();
+				 e.stopPropagation();
+			  }
+			 if(dojo.isIE <9) {		
+			    window.event.cancelBubble = true;
+			    window.event.returnValue = false;
+				setTimeout('Redirect()', 800);
+
+			}
+			else {			 
+			  valid = true;
+		 	  window.location.href =  "/EndNoteWeb.html?func=bibliography&";	
+			}
+		  }
+	}
+		
+
+	function formAction(ev) {
+		console.log("in form action");
+		valid=true;		
+	}
+
+	window.onbeforeunload = function(e) {
+		if (!e)  e = window.event;
+		console.log(window.location.href);
+		if(!valid) {
+			if(dojo.isIE && dojo.isIE >= 10) {
+				var rvalue= IERedirect(e);
+				window.location="/EndNoteWeb.html?func=bibliography&";	
+				valid=true;
+			}
+			else {
+				setTimeout('Redirect()', 400);
+			}
+		}
+	}
+}
+
+
+function Redirect()
+{
+	window.location.href="/EndNoteWeb.html?func=bibliography&";	
+	valid=true;
+}
+
+function IERedirect(e)
+{
+	if (e.preventDefault) {
+		 e.preventDefault();
+	 }
+	else {
+	e.cancelBubble = true;
+	}
+	var msg = "";
+	e.returnValue = msg;
+	return msg;	
+}
+
+
+function showCustomizeList(){
+    document.getElementById("idCustomList").style.display="inline";
+    document.getElementById("idCustomListLink").style.display="none";
+    document.getElementById("idHideCustomListLink").style.display="inline";
+}
+function hideCustomizeList(){
+    document.getElementById("idCustomList").style.display="none";
+    document.getElementById("idCustomListLink").style.display="inline";
+	document.getElementById("idHideCustomListLink").style.display="none";
+}
+
+function changeImage(myform,id) {
+	document.getElementById(id).selectedIndex = -1;
+
+    var disabledImage = document.getElementById("disabledImage");
+    var enabledImage = document.getElementById("enabledImage");
+    if(myform.favoriteOutputStyle.selectedIndex!=-1)
+    {
+		if(0 != 1){
+			disabledImage.style.display="none";
+		    enabledImage.style.display="";
+		}
+    }else
+    {
+	    enabledImage.style.display="none";
+        disabledImage.style.display="";
+    }
+}
+
+function biblioErrorHandler(response, ioArgs) {
+    if(ioArgs.xhr.status == 302 || ioArgs.xhr.status == 0 ){
+//        alert('Current session has been expired! Hit enter to refresh page');
+    }else if(response.dojoType == "timeout"){
+//        alert('Connection Timed out! Hit Enter to force Page Refresh.');
+    }else{
+//        alert('Error when retrieving data from the server!');
+    }
+    console.error(response);
+    window.location.reload(true)
+}
+function html_entity_decode(str) {
+  var ta=document.createElement("textarea");
+  ta.innerHTML=str.replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  return ta.value;
+}
+
+function checkFavorites(myform) {
+	if (myform.outputStyle.value == ""){
+		alert("Please select one or more bibliographic styles.");
+    }else{
+		var selectedOptions='';
+		for ( i=0; i<myform.outputStyle.length ; i++){
+			if (myform.outputStyle.options[i].selected == true ) {
+				selectedOptions+= myform.outputStyle.options[i].value+',';
+			}
+		}
+		selectedOptions=selectedOptions.slice(0, -1);
+		selectedOptions = encodeURIComponent(selectedOptions); 
+		dojo.xhrGet({
+     	    url: './EndNoteWeb.html?func=updateOutputStyles&outputStyle='+selectedOptions+'&Customize=1&CopytoFavorites=1&dntShowUnavailable=0&',
+            handleAs : "json",
+            load     : function (data){
+								var favOutputStylesSelectBox = document.getElementById('favoriteOutputStyles');
+							    var BibliographicStyleSelectBox = document.getElementById('idBibFormat');
+								for (i=favOutputStylesSelectBox.length-1;i>=0;i--) {
+									favOutputStylesSelectBox.remove(i);
+								}
+								for (i=BibliographicStyleSelectBox.length-1;i>0;i--) {
+									BibliographicStyleSelectBox.remove(i);
+								}
+								for (i=0;i< data.FAVOUTPUTSTYLECOUNT; i++) {
+
+									var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+										var optClass = "";
+										var re = new RegExp("^&#8224;");
+										if (text.match(re)) {
+											text = html_entity_decode(text);
+											optClass = 'inactive';
+										}
+										var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+										option.className = optClass;
+									try{
+										favOutputStylesSelectBox.add(option,  null);										
+									}catch(e){
+										favOutputStylesSelectBox.add(option);
+									}
+								}
+								for (i=0;i< data.BIBLIOGRAPHICSTYLESCOUNT; i++) {
+									var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+									var re = new RegExp("^&#8224;");
+									if (text.match(re)) {
+										continue;
+									}
+
+									var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+									try{
+										BibliographicStyleSelectBox.add(option,  null);
+									}catch(e){
+										BibliographicStyleSelectBox.add(option);
+									}
+								}
+								changeImage(document.formFavoriteOutputStyles,'selectOutputStyle');
+                       },
+			error	 : biblioErrorHandler,
+			timeout  : '10000'
+         });
+    }
+	return false;
+}
+
+function removeFromFavorites(myform) {
+	if (myform.favoriteOutputStyle.value == ""){
+		alert("");
+    }else{
+		var selectedOptions='';
+		for ( i=0; i<myform.favoriteOutputStyle.length ; i++){
+			if (myform.favoriteOutputStyle.options[i].selected == true ) {
+				selectedOptions+= myform.favoriteOutputStyle.options[i].value+',';
+			}
+		}
+		selectedOptions=selectedOptions.slice(0, -1);
+		selectedOptions = encodeURIComponent(selectedOptions);
+		dojo.xhrGet({
+     		url: './EndNoteWeb.html?func=updateOutputStyles&outputStyle='+selectedOptions+'&Customize=1&RemovefromFavorites=1&dntShowUnavailable=0&',
+            handleAs : "json",
+            load     : function (data){
+								var favOutputStylesSelectBox = document.getElementById('favoriteOutputStyles');
+								var BibliographicStyleSelectBox = document.getElementById('idBibFormat');
+ 
+								for (i = favOutputStylesSelectBox.length-1 ;i >= 0; i--) {
+									favOutputStylesSelectBox.remove(i);
+								}
+								for (i = BibliographicStyleSelectBox.length-1 ;i > 0; i--) {
+									BibliographicStyleSelectBox.remove(i);
+								}
+								if (data.FAVOUTPUTSTYLECOUNT < 25) {
+									for (i=0;i< data.FAVOUTPUTSTYLECOUNT; i++) {
+										var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+										var optClass = "";
+										var re = new RegExp("^&#8224;");
+										if (text.match(re)) {
+											text = html_entity_decode(text);
+											optClass = 'inactive';
+										}
+										var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+										option.className = optClass;
+										try{
+											favOutputStylesSelectBox.add(option,  null);
+										}catch(e){
+											favOutputStylesSelectBox.add(option);
+										}
+									}
+								}
+								for (i=0;i< data.BIBLIOGRAPHICSTYLESCOUNT; i++) {
+									var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+									var re = new RegExp("^&#8224;");
+									if (text.match(re)) {
+										continue;
+									}
+
+									var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+									try{
+										BibliographicStyleSelectBox.add(option,  null);
+									}catch(e){
+										BibliographicStyleSelectBox.add(option);
+									}
+								}
+								changeImage(document.formFavoriteOutputStyles,'favoriteOutputStyles');
+                       },
+			error : biblioErrorHandler,
+			timeout  : '10000'
+           });
+       
+		return false;
+		}	
+	}
+
+
+/*	function changeImage(myform) {	
+        var disabledImage = document.getElementById("disabledImage");
+        var enabledImage = document.getElementById("enabledImage");
+          if(myform.favoriteOutputStyle.selectedIndex!=-1)
+           {
+                   disabledImage.style.display="none";
+                   enabledImage.style.display="";
+           }
+          else
+           {
+				    enabledImage.style.display="none";
+                    disabledImage.style.display="";
+           }
+	}*/
+
+function popEmailWindow()
+ {
+	var groupName;
+	if('0' == '0')
+	{
+		groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+	} else {
+		 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+		if (groupName != 'undefined' && groupName != ""){
+			groupName = groupName.replace(/^\s+/,'');
+		}	
+	}
+	groupName = encodeURIComponent(groupName);
+	var BiblioFormat=Bibliography.BibFormat.value;
+	BiblioFormat = encodeURIComponent(BiblioFormat);
+   emailurl = "./EndNoteWeb.html?func=export+Email&BibFormat="+BiblioFormat+"&RefSource="+Bibliography.RefSource.value+"&FileFormat="+Bibliography.FileFormat.value+"&RefName="+groupName;
+   window.open(emailurl, "displayWindowEmail", "toolbar=no,location=no,status=no,menubar=no,scrollbars=yes");
+   return false;
+ }
+
+function popPreviewPrintWindow()
+ {
+ 	var groupName;
+	if('0' == '0')
+	{
+		groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+	} else {
+		 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+		if (groupName != 'undefined' && groupName != ""){
+			groupName = groupName.replace(/^\s+/,'');
+		}	
+	}
+	groupName = encodeURIComponent(groupName);
+	var BiblioFormat=Bibliography.BibFormat.value;
+	BiblioFormat = encodeURIComponent(BiblioFormat);
+	previewurl = "./EndNoteWeb.html?func=preview+Print&BibFormat="+BiblioFormat+"&RefSource="+Bibliography.RefSource.value+"&FileFormat="+Bibliography.FileFormat.value+"&RefName="+groupName;
+	window.open(previewurl, "displayWindowPrint", "toolbar=no,location=no,status=no,menubar=no,scrollbars=yes");
+	return false;
+ }
+
+function verifyENWBiblio(frm) {
+    var success = false;
+	valid = true;
+    var ch = ' ';
+	var groupName;
+	if('0' == '0')
+	{
+		groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+	} else {
+		 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+		if (groupName != 'undefined' && groupName != ""){
+			groupName = groupName.replace(/^\s+/,'');
+		}	
+	}
+	if(frm.RefSource.value == "SharedGroupsLine" || frm.RefSource.value == "SharedGroupsHeading" || frm.RefSource.value == "RIDGroupsLine" || frm.RefSource.value == "RIDGroupsHeading"){
+		frm.RefSource.value = '';
+	}
+        if(frm.RefSource.value == '') {
+	    alert("Please select references.");
+            success = false;
+        } else 
+
+        if(frm.BibFormat.value == '') {
+	    alert("Please select a bibliographic style.");
+            success = false;
+        } else 
+        
+        if(frm.FileFormat.value == '') {
+	    alert("Please select a file format.");
+            success = false;
+        } else {
+			document.Bibliography.RefName.value = groupName;
+			success = true; 
+		}
+
+    return success;
+}
+//from showoutputstyles
+/*function checkFavorites(myform) {
+if (myform.outputStyle.value == ""){
+	alert("Please select one or more bibliographic styles.");
+	return false;
+}
+else{
+	myform.submit;
+}
+}*/
+
+
+function CallbackEmail(data)
+{
+		if(data != 0)
+		{
+			if(dojo.byId("emptyFolderErr"))
+				dojo.byId("emptyFolderErr").style.display = "none";
+			popEmailWindow();
+			return false;
+		}else
+		{
+			var groupName;
+			if('0' == '0')
+			{
+				groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+			} else {
+				 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+				if (groupName != 'undefined' && groupName != ""){
+					groupName = groupName.replace(/^\s+/,'');
+				}	
+			}		
+			document.Bibliography.RefName.value = groupName;
+			document.Bibliography.submit();
+		}
+}
+function CallbackPrint(data)
+{
+		if(data != 0)
+		{
+			if(dojo.byId("emptyFolderErr"))
+				dojo.byId("emptyFolderErr").style.display = "none";
+			popPreviewPrintWindow();
+			return false;
+		}else
+		{
+			var groupName;
+			if('0' == '0')
+			{
+				groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+			} else {
+				 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+				if (groupName != 'undefined' && groupName != ""){
+					groupName = groupName.replace(/^\s+/,'');
+				}	
+			}
+			document.Bibliography.RefName.value = groupName;
+			document.Bibliography.submit();
+		}
+}
+function errorHandler( type, error ) {
+    var msg = error.message +"\ntype : " +error.type;
+    alert( msg );
+}
+function checkRef(button)
+{
+	if(button == "email")
+	{
+		dojo.xhrGet({
+					   url: '/cgi-bin/writenote/refCount.cgi',
+					   load: CallbackEmail,
+					   content: {
+						   RefSource: document.Bibliography.RefSource.value,SID: "UW2CRDS-2650c8ed16a3ab5758631cfaa92c0ddc",quickList:""},
+					   handleAs: "text",
+					   preventCache:true,
+					   error : biblioErrorHandler
+		});
+	}else if(button == "print")
+	{ 
+		dojo.xhrGet({
+				   url: '/cgi-bin/writenote/refCount.cgi',
+				   load: CallbackPrint,
+				   content: {
+					   RefSource: document.Bibliography.RefSource.value,SID: "UW2CRDS-2650c8ed16a3ab5758631cfaa92c0ddc",quickList:""},
+				   handleAs: "text",
+				   preventCache:true,
+				   error : biblioErrorHandler
+		});
+	}
+}
+
+</script>
+
+
+
+<td valign="top" class="summary_pagecntnav">
+<table id="contentTable" width="900px" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="top" class="contnav">
+<table border="0" cellpadding="3" cellspacing="0">
+<tbody><tr>
+	<td colspan="2">
+		<div class="heading">Bibliography</div>
+	</td>       
+</tr>
+<tr>
+	<td valign="top">
+	<form action="./EndNoteWeb.html?func=bibliography2" method="post" name="Bibliography" id="idShowBibliography">
+	 <input type="hidden" name="RefName" value="">
+		<table border="0" cellpadding="5" cellspacing="0" class="bibliography_main">
+			<tbody><tr>
+				<td align="right">References:</td>
+				<td><select id="idRefSource" name="RefSource">
+                        <option value="" selected="">Select...</option>
+                        <option value="EL">Quick List</option>
+ 	        			
+	<option value="1">[Unfiled]</option>     
+
+
+
+                       <option value="0">All References in My Library</option>  
+			
+ 
+ 
+
+                       </select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right" nowrap="">Bibliographic style:</td>
+				<td nowrap="">
+					<select id="idBibFormat" name="BibFormat">
+                         <option value="" selected="">Select...</option>
+                         <option value="ABNT (Author-Date).ens">ABNT (Author-Date)</option>
+<option value="ABNT (Citation Order).ens">ABNT (Citation Order)</option>
+<option value="ACS.ens">ACS</option>
+<option value="Annotated.ens">Annotated</option>
+<option value="APA 6th.ens">APA 6th</option>
+<option value="Author-Date.ens">Author-Date</option>
+<option value="Chicago 16th Author-Date.ens">Chicago 16th Author-Date</option>
+<option value="Chicago 17th Footnote.ens">Chicago 17th Footnote</option>
+<option value="Cite Them Right-Harvard.ens">Cite Them Right-Harvard</option>
+<option value="CSE Style Manual C-S.ens">CSE Style Manual C-S</option>
+<option value="CSE Style Manual N-Y.ens">CSE Style Manual N-Y</option>
+<option value="IEEE.ens">IEEE</option>
+<option value="JAMA.ens">JAMA</option>
+<option value="MLA.ens">MLA</option>
+<option value="NLM.ens">NLM</option>
+<option value="Numbered.ens">Numbered</option>
+<option value="Refman (RIS) Export.ens">Refman (RIS) Export</option>
+<option value="Science.ens">Science</option>
+<option value="Turabian 8th Author-Date.ens">Turabian 8th Author-Date</option>
+<option value="Turabian 9th Footnote.ens">Turabian 9th Footnote</option>
+<option value="Vancouver.ens">Vancouver</option>
+
+                       </select>
+<div id="idCustomListLink" style="display:inline">
+    <a href="javascript:void(0)" onclick="javascript:showCustomizeList();">Select Favorites</a>
+</div> 
+				</td>
+			</tr>
+			<tr>
+				<td align="right">File format:</td>
+				<td>
+					<select name="FileFormat">                       <option value="" selected="">Select...</option>
+<option value="HTML">HTML</option>
+<option value="TXT">TXT (plain text file)</option>
+<option value="RTF">RTF (rich text file)</option>
+                       </select>
+				</td>
+			</tr>
+			<tr>	
+				<td>&nbsp;</td>
+				<td nowrap="">
+					<input type="submit" class="blue_btn" value="Save" style="padding:1px 15px" alt="Save my bibliography to a file" name="export SaveTo.x2.x" id="export SaveTo.x2" title="Save my bibliography to a file" onclick="
+					if(verifyENWBiblio(this.form)) {
+						 return true;
+					} else {
+						 return false;
+					}">
+			<input type="submit" class="blue_btn" alt="E-mail my bibliography" name="bibliography2.x2" value="E-Mail" id="export Email.x2" title="E-mail my bibliography" onclick="
+			    if(verifyENWBiblio(this.form)) {
+			       checkRef('email');
+				   return false;
+			     } else {
+			       return false;
+			     }">
+			<input type="submit" class="blue_btn" alt="Preview and print my bibliography" name="preview Print.x2" value="Preview &amp; Print" id="preview Print.x2" title="Preview and print my bibliography" onclick="
+			    if(verifyENWBiblio(this.form)) {
+			       checkRef('print');
+				   return false;
+			     } else {
+			       return false;
+			     }">
+                </td>
+			</tr>
+		</tbody></table>
+		<input type="hidden" name="Customize" value="">
+		</form>
+	</td>
+	<td><script language="JavaScript">
+var valid=false;
+
+window.onload = new function(){trackEvents();};	
+
+function trackEvents() {	
+
+	if (document.addEventListener ) {
+		document.addEventListener("keydown", checkKeycode);
+		document.addEventListener("click", formAction);
+	}
+	else if(document.attachEvent) {
+		document.attachEvent("onkeydown", checkKeycode);
+		document.attachEvent("onclick", formAction);
+	}	
+	
+	function checkKeycode(e) {
+		 var keycode;
+		
+	  	 if (window.event) 
+			 keycode = window.event.keyCode;	
+		 else if (e) 
+			 keycode = e.which;	
+	  	  if (keycode == 116 ||( (keycode == 82) && (e.ctrlKey || window.event.ctrlKey))) {
+			  if (e.preventDefault) {
+				 e.preventDefault();
+				 e.stopPropagation();
+			  }
+			 if(dojo.isIE <9) {		
+			    window.event.cancelBubble = true;
+			    window.event.returnValue = false;
+				setTimeout('Redirect()', 800);
+
+			}
+			else {			 
+			  valid = true;
+		 	  window.location.href =  "/EndNoteWeb.html?func=bibliography&";	
+			}
+		  }
+	}
+		
+
+	function formAction(ev) {
+		console.log("in form action");
+		valid=true;		
+	}
+
+	window.onbeforeunload = function(e) {
+		if (!e)  e = window.event;
+		console.log(window.location.href);
+		if(!valid) {
+			if(dojo.isIE && dojo.isIE >= 10) {
+				var rvalue= IERedirect(e);
+				window.location="/EndNoteWeb.html?func=bibliography&";	
+				valid=true;
+			}
+			else {
+				setTimeout('Redirect()', 400);
+			}
+		}
+	}
+}
+
+
+function Redirect()
+{
+	window.location.href="/EndNoteWeb.html?func=bibliography&";	
+	valid=true;
+}
+
+function IERedirect(e)
+{
+	if (e.preventDefault) {
+		 e.preventDefault();
+	 }
+	else {
+	e.cancelBubble = true;
+	}
+	var msg = "";
+	e.returnValue = msg;
+	return msg;	
+}
+
+
+function showCustomizeList(){
+    document.getElementById("idCustomList").style.display="inline";
+    document.getElementById("idCustomListLink").style.display="none";
+    document.getElementById("idHideCustomListLink").style.display="inline";
+}
+function hideCustomizeList(){
+    document.getElementById("idCustomList").style.display="none";
+    document.getElementById("idCustomListLink").style.display="inline";
+	document.getElementById("idHideCustomListLink").style.display="none";
+}
+
+function changeImage(myform,id) {
+	document.getElementById(id).selectedIndex = -1;
+
+    var disabledImage = document.getElementById("disabledImage");
+    var enabledImage = document.getElementById("enabledImage");
+    if(myform.favoriteOutputStyle.selectedIndex!=-1)
+    {
+		if(0 != 1){
+			disabledImage.style.display="none";
+		    enabledImage.style.display="";
+		}
+    }else
+    {
+	    enabledImage.style.display="none";
+        disabledImage.style.display="";
+    }
+}
+
+function biblioErrorHandler(response, ioArgs) {
+    if(ioArgs.xhr.status == 302 || ioArgs.xhr.status == 0 ){
+//        alert('Current session has been expired! Hit enter to refresh page');
+    }else if(response.dojoType == "timeout"){
+//        alert('Connection Timed out! Hit Enter to force Page Refresh.');
+    }else{
+//        alert('Error when retrieving data from the server!');
+    }
+    console.error(response);
+    window.location.reload(true)
+}
+function html_entity_decode(str) {
+  var ta=document.createElement("textarea");
+  ta.innerHTML=str.replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  return ta.value;
+}
+
+function checkFavorites(myform) {
+	if (myform.outputStyle.value == ""){
+		alert("Please select one or more bibliographic styles.");
+    }else{
+		var selectedOptions='';
+		for ( i=0; i<myform.outputStyle.length ; i++){
+			if (myform.outputStyle.options[i].selected == true ) {
+				selectedOptions+= myform.outputStyle.options[i].value+',';
+			}
+		}
+		selectedOptions=selectedOptions.slice(0, -1);
+		selectedOptions = encodeURIComponent(selectedOptions); 
+		dojo.xhrGet({
+     	    url: './EndNoteWeb.html?func=updateOutputStyles&outputStyle='+selectedOptions+'&Customize=1&CopytoFavorites=1&dntShowUnavailable=0&',
+            handleAs : "json",
+            load     : function (data){
+								var favOutputStylesSelectBox = document.getElementById('favoriteOutputStyles');
+							    var BibliographicStyleSelectBox = document.getElementById('idBibFormat');
+								for (i=favOutputStylesSelectBox.length-1;i>=0;i--) {
+									favOutputStylesSelectBox.remove(i);
+								}
+								for (i=BibliographicStyleSelectBox.length-1;i>0;i--) {
+									BibliographicStyleSelectBox.remove(i);
+								}
+								for (i=0;i< data.FAVOUTPUTSTYLECOUNT; i++) {
+
+									var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+										var optClass = "";
+										var re = new RegExp("^&#8224;");
+										if (text.match(re)) {
+											text = html_entity_decode(text);
+											optClass = 'inactive';
+										}
+										var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+										option.className = optClass;
+									try{
+										favOutputStylesSelectBox.add(option,  null);										
+									}catch(e){
+										favOutputStylesSelectBox.add(option);
+									}
+								}
+								for (i=0;i< data.BIBLIOGRAPHICSTYLESCOUNT; i++) {
+									var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+									var re = new RegExp("^&#8224;");
+									if (text.match(re)) {
+										continue;
+									}
+
+									var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+									try{
+										BibliographicStyleSelectBox.add(option,  null);
+									}catch(e){
+										BibliographicStyleSelectBox.add(option);
+									}
+								}
+								changeImage(document.formFavoriteOutputStyles,'selectOutputStyle');
+                       },
+			error	 : biblioErrorHandler,
+			timeout  : '10000'
+         });
+    }
+	return false;
+}
+
+function removeFromFavorites(myform) {
+	if (myform.favoriteOutputStyle.value == ""){
+		alert("");
+    }else{
+		var selectedOptions='';
+		for ( i=0; i<myform.favoriteOutputStyle.length ; i++){
+			if (myform.favoriteOutputStyle.options[i].selected == true ) {
+				selectedOptions+= myform.favoriteOutputStyle.options[i].value+',';
+			}
+		}
+		selectedOptions=selectedOptions.slice(0, -1);
+		selectedOptions = encodeURIComponent(selectedOptions);
+		dojo.xhrGet({
+     		url: './EndNoteWeb.html?func=updateOutputStyles&outputStyle='+selectedOptions+'&Customize=1&RemovefromFavorites=1&dntShowUnavailable=0&',
+            handleAs : "json",
+            load     : function (data){
+								var favOutputStylesSelectBox = document.getElementById('favoriteOutputStyles');
+								var BibliographicStyleSelectBox = document.getElementById('idBibFormat');
+ 
+								for (i = favOutputStylesSelectBox.length-1 ;i >= 0; i--) {
+									favOutputStylesSelectBox.remove(i);
+								}
+								for (i = BibliographicStyleSelectBox.length-1 ;i > 0; i--) {
+									BibliographicStyleSelectBox.remove(i);
+								}
+								if (data.FAVOUTPUTSTYLECOUNT < 25) {
+									for (i=0;i< data.FAVOUTPUTSTYLECOUNT; i++) {
+										var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+										var optClass = "";
+										var re = new RegExp("^&#8224;");
+										if (text.match(re)) {
+											text = html_entity_decode(text);
+											optClass = 'inactive';
+										}
+										var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+										option.className = optClass;
+										try{
+											favOutputStylesSelectBox.add(option,  null);
+										}catch(e){
+											favOutputStylesSelectBox.add(option);
+										}
+									}
+								}
+								for (i=0;i< data.BIBLIOGRAPHICSTYLESCOUNT; i++) {
+									var text = data.FAVOUTPUTSTYLEOPTIONS[i].text;
+									var re = new RegExp("^&#8224;");
+									if (text.match(re)) {
+										continue;
+									}
+
+									var option = new Option(text, data.FAVOUTPUTSTYLEOPTIONS[i].value);
+									try{
+										BibliographicStyleSelectBox.add(option,  null);
+									}catch(e){
+										BibliographicStyleSelectBox.add(option);
+									}
+								}
+								changeImage(document.formFavoriteOutputStyles,'favoriteOutputStyles');
+                       },
+			error : biblioErrorHandler,
+			timeout  : '10000'
+           });
+       
+		return false;
+		}	
+	}
+
+
+/*	function changeImage(myform) {	
+        var disabledImage = document.getElementById("disabledImage");
+        var enabledImage = document.getElementById("enabledImage");
+          if(myform.favoriteOutputStyle.selectedIndex!=-1)
+           {
+                   disabledImage.style.display="none";
+                   enabledImage.style.display="";
+           }
+          else
+           {
+				    enabledImage.style.display="none";
+                    disabledImage.style.display="";
+           }
+	}*/
+
+function popEmailWindow()
+ {
+	var groupName;
+	if('0' == '0')
+	{
+		groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+	} else {
+		 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+		if (groupName != 'undefined' && groupName != ""){
+			groupName = groupName.replace(/^\s+/,'');
+		}	
+	}
+	groupName = encodeURIComponent(groupName);
+	var BiblioFormat=Bibliography.BibFormat.value;
+	BiblioFormat = encodeURIComponent(BiblioFormat);
+   emailurl = "./EndNoteWeb.html?func=export+Email&BibFormat="+BiblioFormat+"&RefSource="+Bibliography.RefSource.value+"&FileFormat="+Bibliography.FileFormat.value+"&RefName="+groupName;
+   window.open(emailurl, "displayWindowEmail", "toolbar=no,location=no,status=no,menubar=no,scrollbars=yes");
+   return false;
+ }
+
+function popPreviewPrintWindow()
+ {
+ 	var groupName;
+	if('0' == '0')
+	{
+		groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+	} else {
+		 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+		if (groupName != 'undefined' && groupName != ""){
+			groupName = groupName.replace(/^\s+/,'');
+		}	
+	}
+	groupName = encodeURIComponent(groupName);
+	var BiblioFormat=Bibliography.BibFormat.value;
+	BiblioFormat = encodeURIComponent(BiblioFormat);
+	previewurl = "./EndNoteWeb.html?func=preview+Print&BibFormat="+BiblioFormat+"&RefSource="+Bibliography.RefSource.value+"&FileFormat="+Bibliography.FileFormat.value+"&RefName="+groupName;
+	window.open(previewurl, "displayWindowPrint", "toolbar=no,location=no,status=no,menubar=no,scrollbars=yes");
+	return false;
+ }
+
+function verifyENWBiblio(frm) {
+    var success = false;
+	valid = true;
+    var ch = ' ';
+	var groupName;
+	if('0' == '0')
+	{
+		groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+	} else {
+		 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+		if (groupName != 'undefined' && groupName != ""){
+			groupName = groupName.replace(/^\s+/,'');
+		}	
+	}
+	if(frm.RefSource.value == "SharedGroupsLine" || frm.RefSource.value == "SharedGroupsHeading" || frm.RefSource.value == "RIDGroupsLine" || frm.RefSource.value == "RIDGroupsHeading"){
+		frm.RefSource.value = '';
+	}
+        if(frm.RefSource.value == '') {
+	    alert("Please select references.");
+            success = false;
+        } else 
+
+        if(frm.BibFormat.value == '') {
+	    alert("Please select a bibliographic style.");
+            success = false;
+        } else 
+        
+        if(frm.FileFormat.value == '') {
+	    alert("Please select a file format.");
+            success = false;
+        } else {
+			document.Bibliography.RefName.value = groupName;
+			success = true; 
+		}
+
+    return success;
+}
+//from showoutputstyles
+/*function checkFavorites(myform) {
+if (myform.outputStyle.value == ""){
+	alert("Please select one or more bibliographic styles.");
+	return false;
+}
+else{
+	myform.submit;
+}
+}*/
+
+
+function CallbackEmail(data)
+{
+		if(data != 0)
+		{
+			if(dojo.byId("emptyFolderErr"))
+				dojo.byId("emptyFolderErr").style.display = "none";
+			popEmailWindow();
+			return false;
+		}else
+		{
+			var groupName;
+			if('0' == '0')
+			{
+				groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+			} else {
+				 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+				if (groupName != 'undefined' && groupName != ""){
+					groupName = groupName.replace(/^\s+/,'');
+				}	
+			}		
+			document.Bibliography.RefName.value = groupName;
+			document.Bibliography.submit();
+		}
+}
+function CallbackPrint(data)
+{
+		if(data != 0)
+		{
+			if(dojo.byId("emptyFolderErr"))
+				dojo.byId("emptyFolderErr").style.display = "none";
+			popPreviewPrintWindow();
+			return false;
+		}else
+		{
+			var groupName;
+			if('0' == '0')
+			{
+				groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(3);	
+			} else {
+				 groupName=Bibliography.RefSource.options[Bibliography.RefSource.selectedIndex].text.substring(0);
+				if (groupName != 'undefined' && groupName != ""){
+					groupName = groupName.replace(/^\s+/,'');
+				}	
+			}
+			document.Bibliography.RefName.value = groupName;
+			document.Bibliography.submit();
+		}
+}
+function errorHandler( type, error ) {
+    var msg = error.message +"\ntype : " +error.type;
+    alert( msg );
+}
+function checkRef(button)
+{
+	if(button == "email")
+	{
+		dojo.xhrGet({
+					   url: '/cgi-bin/writenote/refCount.cgi',
+					   load: CallbackEmail,
+					   content: {
+						   RefSource: document.Bibliography.RefSource.value,SID: "UW2CRDS-2650c8ed16a3ab5758631cfaa92c0ddc",quickList:""},
+					   handleAs: "text",
+					   preventCache:true,
+					   error : biblioErrorHandler
+		});
+	}else if(button == "print")
+	{ 
+		dojo.xhrGet({
+				   url: '/cgi-bin/writenote/refCount.cgi',
+				   load: CallbackPrint,
+				   content: {
+					   RefSource: document.Bibliography.RefSource.value,SID: "UW2CRDS-2650c8ed16a3ab5758631cfaa92c0ddc",quickList:""},
+				   handleAs: "text",
+				   preventCache:true,
+				   error : biblioErrorHandler
+		});
+	}
+}
+
+</script>
+
+
+
+<script type="text/javascript">
+function initFunction(){
+	if(0 == 1){
+		document.getElementById("copyFavorites").onclick = "javascript:void(0)";
+		document.getElementById("copyFavorites").alt = "Copy to Favorites (disabled)";
+		document.getElementById("copyFavorites").title = "Copy to Favorites (disabled)";
+		document.getElementById("copyFavorites").src = "/images/en_us/copy_favorites_disabled.gif";
+		document.getElementById("copyFavorites").style.cursor = 'default';
+	}
+}
+dojo.addOnLoad(initFunction);
+</script>
+<div id="idCustomList" style="display:none;"> 
+<table class="connectFiles" border="0" cellpadding="0" cellspacing="0"> 
+        
+    <tbody><tr>
+		<td valign="top">
+			<div class="selectionBox">
+			<form name="formAllOutputStyles" action="./EndNoteWeb.html?func=bibliography&amp;Customize=1&amp;" method="post" onsubmit="return false">
+				<div class="selectionHead" style="padding-bottom:2px;">All:</div>
+				<select id="selectOutputStyle" name="outputStyle" size="10" multiple="multiple" onchange="changeImage(document.formFavoriteOutputStyles,'favoriteOutputStyles');">		<option value="ABNT (Author-Date).ens">ABNT (Author-Date)</option>
+<option value="ABNT (Citation Order).ens">ABNT (Citation Order)</option>
+<option value="ACS.ens">ACS</option>
+<option value="Annotated.ens">Annotated</option>
+<option value="APA 6th.ens">APA 6th</option>
+<option value="Author-Date.ens">Author-Date</option>
+<option value="Chicago 16th Author-Date.ens">Chicago 16th Author-Date</option>
+<option value="Chicago 17th Footnote.ens">Chicago 17th Footnote</option>
+<option value="Cite Them Right-Harvard.ens">Cite Them Right-Harvard</option>
+<option value="CSE Style Manual C-S.ens">CSE Style Manual C-S</option>
+<option value="CSE Style Manual N-Y.ens">CSE Style Manual N-Y</option>
+<option value="IEEE.ens">IEEE</option>
+<option value="JAMA.ens">JAMA</option>
+<option value="MLA.ens">MLA</option>
+<option value="NLM.ens">NLM</option>
+<option value="Numbered.ens">Numbered</option>
+<option value="Refman (RIS) Export.ens">Refman (RIS) Export</option>
+<option value="Science.ens">Science</option>
+<option value="Turabian 8th Author-Date.ens">Turabian 8th Author-Date</option>
+<option value="Turabian 9th Footnote.ens">Turabian 9th Footnote</option>
+<option value="Vancouver.ens">Vancouver</option>
+
+				</select>
+				<div>
+					<input type="button" class="blue_btn" alt="Copy to Favorites" name="copyFav" id="copyFavorites" border="0" title="Copy to Favorites" value="Copy to Favorites" onclick="return checkFavorites(document.formAllOutputStyles);">
+				</div>
+				<input type="hidden" name="CopytoFavorites" value="CopytoFavorites">
+				<div class="instructions">
+					<b>Add to my list (25 limit):</b><br>
+					1.&nbsp;Select one or more.<br>
+					2.&nbsp;Click the "Copy to Favorites" button.
+				</div>
+        </form>
+			</div>
+		</td>
+
+		<td valign="top">
+			<div class="selectionBox">
+				<form name="formFavoriteOutputStyles" action="./EndNoteWeb.html?func=bibliography&amp;Customize=1&amp;" method="post">
+				<div style="position: relative;text-align: center;width: 100%;"><span style="position: absolute;left: 0;" class="selectionHead">My Favorites:</span><span id="idHideCustomListLink" style="display:none;position: absolute;right: 0;">
+<a href="javascript:void(0)" onclick="javascript:hideCustomizeList();">Hide</a></span></div>
+<br>
+				<select id="favoriteOutputStyles" name="favoriteOutputStyle" size="10" multiple="multiple" onchange="changeImage(this.form,'selectOutputStyle');">
+				</select>
+				<div id="enabledImage" style="display:none">
+					<input type="button" class="grey_btn" alt="Remove from Favorites" name="remFavorites" border="0" title="Remove from Favorites" value="Remove from Favorites" onclick="return removeFromFavorites(document.formFavoriteOutputStyles)">
+				</div>
+				<div id="disabledImage">
+					<input type="button" class="grey_btn" alt="Remove from Favorites (disabled)" title="Remove from Favorites (disabled)" name="remFavorites" border="0" value="Remove from Favorites" style="opacity: 0.37;padding:1px 10px;cursor: default;height:16px" onclick="return false">
+				</div>				
+				<div class="instructions">
+					<b>Remove from my list:</b><br>
+					1.&nbsp;Select one or more.<br>
+					2.&nbsp;Click the "Remove from Favorites" button.
+				</div>
+				</form>
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+
+
+</div></td>
+</tr>
+<tr>
+        <td>&nbsp;</td>
+	<td valign="top">
+	</td>
+	</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+
+<!-- begin: MasterEnd -->
+<td width="1" class="dotvert"><img src="/images/en_us/spacer.gif"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td width="5">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#FFFFFF" class="pagecntnav1" colspan="2">
+ <div id="onlineHrBar" style="margin-left:19px;" class="dothorz"></div>
+ &nbsp;
+
+    </td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+    <td width="1">&nbsp;</td>
+    <td>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody><tr>
+                <td valign="top" class="tdbgwhite" style="padding-left:12px;">
+	<!-- begin: language toggle -->
+	<!-- begin: language selection -->
+<script type="text/javascript">
+function chgLanguage(lang){
+    document.chgLangForm.locale.value = lang;
+	if(document.summarypage){
+		if(document.summarypage.current_folder_id){       
+			var folderId = document.summarypage.current_folder_id.value;		
+			if(!folderId.match(/^(-1|\d+|EL|\w+[:_]\d+)$/)) { 
+				folderId = 0; 
+			}			
+		document.getElementById("idLangChgFolderId").value = folderId;
+		}		
+	}
+	if(document.citationSearchForm){		
+	    document.getElementById("idLangChgSearchItem").value = encodeURIComponent(document.citationSearchForm.search_item.value);
+		document.getElementById("idLangAuthorFlag").value = document.citationSearchForm.authorflag.value;
+    }
+	if(document.getElementById("idForCitId") && document.getElementById("idViewCitation").style.display == "inline"){
+		document.getElementById("idLangChgCitId").value = document.getElementById("idForCitId").value;
+		var element = document.createElement("input");
+	    element.setAttribute("type", "hidden");
+		element.setAttribute("value", document.getElementById("idForCitId").value);
+	    element.setAttribute("name", "ShowViewCitation");
+		document.chgLangForm.appendChild(element);
+		ga('send', 'event', 'Language - '+lang , 'Link','lang','1');
+	}
+
+var fcall;
+
+if (document.getElementById("idLangChgAjaxFunc")) {
+	fcall = document.getElementById("idLangChgAjaxFunc").value;
+}
+var fpatt = /ajaxErrorFunc=forgotPassword/g;
+var spatt = /ajaxErrorFunc=showEMailID/g;
+var rpatt = /ajaxErrorFunc=showRegister/g;
+var faction = document.chgLangForm.action;
+
+if (fcall == "showEMailID") {
+  if (faction.match(spatt) == null) {
+	faction =faction.replace(fpatt,fcall);
+	document.chgLangForm.action =faction + "&ajaxErrorFunc=showEMailID&";
+  }
+}
+
+if (fcall == "forgotPassword") {
+  if (faction.match(spatt) != null) {
+	faction = faction.replace(spatt,"ajaxErrorFunc="+fcall);
+	document.chgLangForm.action = faction;
+  }
+  if (faction.match(fpatt) == null) {
+	document.chgLangForm.action =faction + "&ajaxErrorFunc=forgotPassword&";
+  }
+
+}
+
+if (fcall == "showRegister") { 
+	if (faction.match(spatt) != null ) {
+	faction = faction.replace(spatt,"ajaxErrorFunc="+fcall);
+	document.chgLangForm.action = faction;
+	}
+            if (faction.match(rpatt) == null) {
+	 document.chgLangForm.action =faction + "&ajaxErrorFunc=showRegister&"; 
+  }
+                
+}
+
+    document.chgLangForm.submit();
+}
+</script>
+<form name="chgLangForm" id="idChgLangForm" action="./EndNoteWeb.html?func=bibliography&amp;cat=format" method="post">
+<input type="hidden" name="locale">
+<input type="hidden" name="langChgAjaxFunc" id="idLangChgAjaxFunc" value="remoteSearchConnections">
+<input type="hidden" name="langChgRetAll" id="idLangChgRetAll" value="">
+<input type="hidden" name="langChgRangeStart" id="idLangChgRangeStart" value="">
+<input type="hidden" name="langChgRangeEnd" id="idLangChgRangeEnd" value="">
+<input type="hidden" name="langChgFolderId" id="idLangChgFolderId">
+<input type="hidden" name="langChgSearchItem" id="idLangChgSearchItem">
+<input type="hidden" name="langChgCitId" id="idLangChgCitId">
+<input type="hidden" name="langChgAddCap" value="">
+<input type="hidden" name="langAuthorFlag" id="idLangAuthorFlag">
+<!-- <input type="hidden" name="ShowViewCitation" id="idShowViewCitation"> -->
+
+   <div class="languages1" id="languages1">
+
+
+   <div class="languages2">
+   <div class="languages3">
+   <div class="languages4">
+   <span class="languageHdr">View in</span>
+                                <span class="languageText"><a href="javascript:chgLanguage('zh_cn')">简体中文</a></span>
+                                <span class="languageText"><a href="javascript:chgLanguage('zh_tw')">繁体中文</a></span>
+			   <span class="languageText">English</span>
+                                <span class="languageText"><a href="javascript:chgLanguage('de')">Deutsch</a></span>
+                                <span class="languageText"><a href="javascript:chgLanguage('ja')">日本語</a></span>
+                                <span class="languageText"><a href="javascript:chgLanguage('ko_kr')">한국어</a></span>
+                                <span class="languageText"><a href="javascript:chgLanguage('pt_br')">Português</a></span>
+                                <span class="languageText"><a href="javascript:chgLanguage('es_la')">Español</a></span>
+</div></div></div></div>
+</form>
+
+<!--  end: language selection -->
+   
+
+	<!-- end: language toggle -->
+<!-- end: MasterEnd -->
+<!-- begin: Footer -->
+</td>
+</tr>
+</tbody></table></td>
+<td>&nbsp;</td>
+</tr>
+</tbody></table>
+<!-- end: Footer -->
+
+
+  
+
+
+
+
+  
+
+
+
+
+</body></html>
