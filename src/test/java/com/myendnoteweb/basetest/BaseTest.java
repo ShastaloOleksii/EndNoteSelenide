@@ -1,34 +1,41 @@
 package com.myendnoteweb.basetest;
 
+import com.codeborne.selenide.Configuration;
+import com.myendnoteweb.pages.LoginPage;
+import com.myendnoteweb.pages.MainPage;
 import org.openqa.selenium.By;
+import org.testng.annotations.BeforeTest;
 
-import static com.codeborne.selenide.Condition.id;
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class BaseTest {
-    public String getLogin() {
-        return login;
+    private LoginPage loginPage = new LoginPage();
+    private MainPage mainPage = new MainPage();
+
+
+
+    public LoginPage getLoginPage() {
+        return loginPage;
     }
 
-    public String getPassword() {
-        return password;
+    public MainPage getMainPage() {
+        return mainPage;
     }
 
-    public String getTab() {
-        return tab;
-    }
+@BeforeTest
+public void  beforeMyTests(){
+    Configuration.timeout=10000;
+    System.setProperty("webdriver.chrome.driver", "chromedriver");
+}
 
-    private String login = "igavudu-5763@yopmail.com";
-    private String password = "A123456@";
-    private  String tab = "lgLink";
 
-    public void preconditions() {
-        open("https://access.clarivate.com/login?app=endnote");
-        $(By.xpath(".//input[@id = 'mat-input-0']")).sendKeys(login);
-        $(By.id("mat-input-1")).sendKeys(password);
-        $(By.xpath("//button[contains(@class,'btn--login')]")).click();
-        $(By.xpath(".//td[contains(@id, 'idFoderDesc')]")).should(id("idFoderDesc"));
+    public void preconditionsLogin() {
+        open(getLoginPage().getHost());
+        $(By.xpath(getLoginPage().getLoginField())).setValue(getLoginPage().getLogin());
+        $(By.xpath(getLoginPage().getPasswordField())).setValue(getLoginPage().getPassword());
+        $(By.xpath(getLoginPage().getButtonLogin())).click();
 
     }
 }
