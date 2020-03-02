@@ -26,7 +26,7 @@ public class BaseTest {
 
 @BeforeTest
 public void  beforeMyTests(){
-    Configuration.timeout=10000;
+    Configuration.timeout=5000;
     System.setProperty("webdriver.chrome.driver", "chromedriver");
 }
 
